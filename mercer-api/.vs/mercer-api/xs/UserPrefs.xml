@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{205DDFFC-4FDD-464E-9A32-640113A6399B}|Default">
+  <MonoDevelop.Ide.ItemProperties.mercer-api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="mercer-api/Data Layer/CharacterRepository.cs">
+    <Files>
+      <File FileName="mercer-api/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="mercer-api/Data Layer/CharacterRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="mercer-api" expanded="True">
+            <Node name="mercer-api" expanded="True">
+              <Node name="Data Layer" expanded="True">
+                <Node name="CharacterRepository.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
