@@ -1,0 +1,16 @@
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Dwarf');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Elf');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Halfling');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Human');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Dragonborn');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Gnome');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Half-Elf');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Half-Orc');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Tiefling');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Aasimar');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Firbolg');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Goliath');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Kenku');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Lizardfolk');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Tabaxi');
+INSERT INTO dbo.CharacterRace(RaceName) VALUES ('Triton');

@@ -1,26 +1,17 @@
 ﻿<Properties StartupConfiguration="{205DDFFC-4FDD-464E-9A32-640113A6399B}|Default">
   <MonoDevelop.Ide.ItemProperties.mercer-api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="mercer-api/DAL/Repository.cs">
-    <Files>
-      <File FileName="mercer-api/Controllers/PlayerController.cs" Line="10" Column="6" />
-      <File FileName="mercer-api/DAL/Repository.cs" Line="57" Column="1" />
-      <File FileName="mercer-api/DAL/IRepository.cs" Line="13" Column="32" />
-      <File FileName="mercer-api/DAL/Models/Player.cs" Line="15" Column="6" />
-      <File FileName="mercer-api/Program.cs" Line="8" Column="36" />
-      <File FileName="mercer-api/Controllers/BaseController.cs" Line="10" Column="20" />
-      <File FileName="mercer-api/DAL/IEntity.cs" Line="6" Column="15" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="mercer-api" expanded="True">
             <Node name="mercer-api" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DAL" expanded="True">
-                <Node name="Models" expanded="True" />
-                <Node name="Repository.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="PlayerController.cs" selected="True" />
               </Node>
+              <Node name="DAL" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="UTIL" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>

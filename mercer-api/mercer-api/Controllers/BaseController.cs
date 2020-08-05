@@ -26,6 +26,12 @@ namespace mercer_api.Controllers
             return await _repository.GetAll();
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<TEntity>> Get(int id)
+        {
+            return await _repository.Get(id);
+        }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, TEntity entity)
         {
@@ -34,7 +40,7 @@ namespace mercer_api.Controllers
                 return BadRequest();
             }
             await _repository.Update(entity);
-            return NoContent();
+            return Ok();
         }
 
         [HttpPost]

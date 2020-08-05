@@ -23,9 +23,10 @@ namespace mercer_api
         {
             services.AddControllers();
 
-            services.AddDbContext<MercerdbContext>(options =>
+            services.AddDbContext<mercerdbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MercerDbContext")));
             services.AddScoped<PlayerRepository>();
+            services.AddScoped<ClassRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

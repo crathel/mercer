@@ -53,4 +53,3 @@
 /Users/corey/Public/Projects/mercer/mercer-api/mercer-api/obj/Debug/netcoreapp3.0/mercer-api.dll
 /Users/corey/Public/Projects/mercer/mercer-api/mercer-api/obj/Debug/netcoreapp3.0/mercer-api.pdb
 /Users/corey/Public/Projects/mercer/mercer-api/mercer-api/obj/Debug/netcoreapp3.0/mercer-api.genruntimeconfig.cache
-/Users/corey/Public/Projects/mercer/mercer-api/mercer-api/obj/Debug/netcoreapp3.0/mercer-api.csprojAssemblyReference.cache
