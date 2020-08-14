@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using mercer_api.DAL.Repositories;
 using mercer_api.DAL;
 using Microsoft.AspNetCore.Mvc;
 

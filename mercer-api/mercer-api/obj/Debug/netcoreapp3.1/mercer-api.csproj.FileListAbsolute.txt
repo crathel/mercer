@@ -124,3 +124,6 @@
 /Users/corey/Public/Projects/mercer/mercer-api/mercer-api/obj/Debug/netcoreapp3.1/mercer-api.dll
 /Users/corey/Public/Projects/mercer/mercer-api/mercer-api/obj/Debug/netcoreapp3.1/mercer-api.pdb
 /Users/corey/Public/Projects/mercer/mercer-api/mercer-api/obj/Debug/netcoreapp3.1/mercer-api.genruntimeconfig.cache
+/Users/corey/Public/Projects/mercer/mercer-api/mercer-api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/corey/Public/Projects/mercer/mercer-api/mercer-api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/corey/Public/Projects/mercer/mercer-api/mercer-api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace mercer_api.DAL
+namespace mercer_api.DAL.Repositories
 {
     public interface IRepository<T>
     {

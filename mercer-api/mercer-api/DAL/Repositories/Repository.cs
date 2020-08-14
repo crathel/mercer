@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace mercer_api.DAL
+namespace mercer_api.DAL.Repositories
 {
     public abstract class Repository<TEntity,TContext> : IRepository<TEntity>
         where TEntity : class
@@ -33,7 +33,7 @@ namespace mercer_api.DAL
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public async Task<TEntity> Delete(int id)
+        public virtual async Task<TEntity> Delete(int id)
         {
             var entity = await _context.Set<TEntity>().FindAsync(id);
             if (entity == null)
@@ -52,7 +52,7 @@ namespace mercer_api.DAL
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public async Task<TEntity> Get(int id)
+        public virtual async Task<TEntity> Get(int id)
         {
             return await _context.Set<TEntity>().FindAsync(id);
         }
@@ -61,9 +61,10 @@ namespace mercer_api.DAL
         /// Get all entities and return them as a list
         /// </summary>
         /// <returns></returns>
-        public async Task<List<TEntity>> GetAll()
+        public virtual async Task<List<TEntity>> GetAll()
         {
-            return await _context.Set<TEntity>().ToListAsync();
+            return await _context.Set<TEntity>()
+                .ToListAsync();
         }
 
         /// <summary>
@@ -71,7 +72,7 @@ namespace mercer_api.DAL
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        public async Task<TEntity> Update(TEntity entity)
+        public virtual async Task<TEntity> Update(TEntity entity)
         {
             _context.Entry(entity).State = EntityState.Modified;
             await _context.SaveChangesAsync();

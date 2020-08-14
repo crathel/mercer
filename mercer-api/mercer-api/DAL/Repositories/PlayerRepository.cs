@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using mercer_api.DAL.Models;
 
-namespace mercer_api.DAL
+namespace mercer_api.DAL.Repositories
 {
     public class PlayerRepository : Repository<Player, mercerdbContext>
     {

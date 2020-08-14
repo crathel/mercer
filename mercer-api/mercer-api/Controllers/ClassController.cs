@@ -1,5 +1,4 @@
-﻿using System;
-using mercer_api.DAL;
+﻿using mercer_api.DAL.Repositories;
 using mercer_api.DAL.Models;
 namespace mercer_api.Controllers
 {

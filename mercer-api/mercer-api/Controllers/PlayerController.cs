@@ -1,4 +1,4 @@
-﻿using mercer_api.DAL;
+﻿using mercer_api.DAL.Repositories;
 using mercer_api.DAL.Models;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,4 +1,4 @@
-using mercer_api.DAL;
+using mercer_api.DAL.Repositories;
 using mercer_api.DAL.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -21,12 +21,14 @@ namespace mercer_api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
             services.AddDbContext<mercerdbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MercerDbContext")));
             services.AddScoped<PlayerRepository>();
             services.AddScoped<ClassRepository>();
+            services.AddScoped<CharacterRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
